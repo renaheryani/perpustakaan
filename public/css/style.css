@@ -1,0 +1,138 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fafafa;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  /* align-items: stretch; */
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #7386D5;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#sidebar a,
+#sidebar a:hover,
+#sidebar a:focus {
+  color: inherit;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #6d7fcc;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #7386D5;
+  background: #fff;
+}
+
+.active {
+  color: #fff;
+  background: #4e62bb;
+}
+
+/* content */
+#content {
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* dashboard */
+
+.card-data {
+    border: solid 1px;
+    padding: 20px 30px;
+    color: white;
+}
+
+.card-data.buku{
+    background-color: #ee9835;
+}
+
+.card-data.kategori {
+    background-color: #39b892 ;
+}
+
+.card-data.pengguna {
+    background-color: #437bc5;
+}
+
+.card-data i{
+    font-size: 80px;
+}
+
+.card-desc{
+    font-size: 30px;
+}
+
+.card-count{
+    font-size: 30px;
+}
+
+/* Tambah Kategori */
+.container {
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 600px; 
+  margin: 10px; 
+  padding: 15px;
+}
+
+.text-h4{
+  margin-top: auto ;
+  margin-left: 10px;
+  padding: 15px;
+}
+
